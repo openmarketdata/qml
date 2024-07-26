@@ -1,3 +1,8 @@
+Version 0.7.4 on 2024-07-25:
+  * Updated k.h download location and add support to KXVER 4.
+  * Fixed multiple definitons of 'call'.
+  * Added -std=legacy to FFLAGS to suppress Fortran 2018 warnings.
+
 Version 0.7.3 on 2017-07-25:
   * Updated k.h download location.
   * Updated to OpenBLAS 0.2.20.
