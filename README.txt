@@ -18,6 +18,13 @@ qml is linked against several other libraries. The copyrights and licenses for
 these libraries are also listed in LICENSE.txt.
 
 
+Prerequisites
+-------------
+
+Ubuntu 22.04, use system openblas and lapack instead of --build-*
+
+    sudo apt install libopenblas-dev liblapack-dev
+
 Installation
 ------------
 

@@ -1,7 +1,7 @@
 include ../mk/pkg.mk
 
 k.h.url = $(Q_DIR)/c/c/k.h
-k.h.sha256 = cbf96d056492f0d26f84510497b08a6bedb612c131031b4605bedf99f4f7db8d
+k.h.sha256 = beb5d3c83f46a80c49e2b42bc79c33dc24f1d6dd9665665d6ea32e73c12bb596
 
 $(KXARCH)/q.lib.url = $(Q_DIR)/$(KXARCH)/q.lib
 w32/q.lib.sha256 = 05520dab4079d379f18b0f0a8d2c27383975b050dc316ccee1f6c9c67892de81

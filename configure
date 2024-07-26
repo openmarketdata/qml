@@ -146,7 +146,7 @@ else
     fi
 fi
 case $KXVER in
-    2|3) ;;
+    2|3|4) ;;
     *) echo "unknown q version." >&2; exit 1 ;;
 esac
 
@@ -566,8 +566,8 @@ QHOME          := $QHOME_CONFIG
 CC             := $CC
 FC             := $FC
 CFLAGS         := $CFLAGS $CFLAGS_FLOAT
-FFLAGS         := $FFLAGS $FFLAGS_FLOAT $FFLAGS_THREAD
-FFLAGS_NTHREAD := $FFLAGS $FFLAGS_FLOAT
+FFLAGS         := $FFLAGS $FFLAGS_FLOAT -std=legacy $FFLAGS_THREAD
+FFLAGS_NTHREAD := $FFLAGS $FFLAGS_FLOAT -std=legacy
 FLAGS          := $FLAGS $FLAGS_BITS $FLAGS_WINDOWS $FLAGS_PIC $FLAGS_PIPE
 XAR            := $XAR
 TOOLPREFIX     := $TOOLPREFIX
